@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    color: #555;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, auto));
+    grid-gap: 130px;
+    margin: 2px;
+    max-width: 1040px;
+    padding: 21px;
+    
+}
+
+
+.product{
+    padding: 0px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    /* border: 3px solid red; */
+    border-radius: 33px;
+    width: 488px;
+
+}
+
+.product .contact{
+    width: 381px;
+    height: 298px;
+    background: #17C0EB;
+    border-radius: 11px 16px 15px 20px;
+}
+
+.contact-detials{
+    display: flex;
+    width: 466px;
+    height: 298px;
+    background: #535353;
+    padding-left: 28px;
+    margin-left: 22px;
+    border-radius: 1px 11px 15px 3px;
+}
+
+.contact-detials .contact-image{
+    width: 219px;
+    height: 297px;
+    background: #535353;
+    
+    border-radius: 1px 11px 15px 3px;
+
+}
+.contact-image img{
+    width: 165px;
+    height: 167px;
+    border-radius: 100px;
+    margin: 65px 10px;
+
+}
+#image{
+    margin-left: -47px;
+    width: 266px;
+}
+#image1{
+    margin-left: -49px;
+    width: 267px;
+    border-left: 43px solid red;
+    border-radius: 10px 3px 3px 17px;
+}
+.contact-image h2{
+    font-size: 18px;
+    margin-top: 12px;
+    font-weight: 800;
+     color: white;
+}
+.contact-details{
+    width: 262px;
+    height: 254px;
+    margin-top: 27px;
+}
+.contact-details h3{
+    margin-top: -128px;
+    /* margin: 5px; */
+    font-size: 11px;
+    padding-top: 138px;
+    margin-left: 20px;
+    font-weight: 700;
+    color: white;
+}
